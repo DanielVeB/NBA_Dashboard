@@ -8,7 +8,6 @@ const routes: Routes = [
   {
     path: 'nba',
     loadChildren: () => import('./core/main.module').then(m => m.MainModule)
-    // component: MainComponent
   }
 ];
 
